@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/tw2s.h
+behaviortree_cpp/bt_factory.h
+-
+iostream
+-
+
+/home/yjh/BT_learn/TW2S/src/main.cpp
+behaviortree_cpp/bt_factory.h
+-
+iostream
+-
+tw2s.h
+-
+
+/home/yjh/BT_learn/TW2S/src/tw2s.cpp
+tw2s.h
+/home/yjh/BT_learn/TW2S/src/tw2s.h
+

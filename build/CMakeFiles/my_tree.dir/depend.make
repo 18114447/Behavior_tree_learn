@@ -7,3 +7,6 @@ CMakeFiles/my_tree.dir/src/behavior_tree_nodes.cpp.o: ../src/behavior_tree_nodes
 CMakeFiles/my_tree.dir/src/main.cpp.o: ../include/behavior_tree_nodes.h
 CMakeFiles/my_tree.dir/src/main.cpp.o: ../src/main.cpp
 
+CMakeFiles/my_tree.dir/src/main2.cpp.o: ../include/tw2s.h
+CMakeFiles/my_tree.dir/src/main2.cpp.o: ../src/main2.cpp
+

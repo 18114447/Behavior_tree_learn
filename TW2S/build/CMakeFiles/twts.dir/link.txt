@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/twts.dir/src/main.cpp.o CMakeFiles/twts.dir/src/tw2s.cpp.o  -o twts  -lbehaviortree_cpp 

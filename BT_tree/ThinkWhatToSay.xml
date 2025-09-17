@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root BTCPP_format="3">
+  <BehaviorTree ID="thinkWhatToSay">
+    <Sequence>
+      <Script code="topic1:=&apos;message by script&apos;"/>
+      <SaySomething message="hello"/>
+      <ThinkWhatToSay text="{topic}"
+                      info="{topic1}"/>
+    </Sequence>
+  </BehaviorTree>
+
+  <!-- Description of Node Models (used by Groot) -->
+  <TreeNodesModel>
+    <Action ID="SaySomething"
+            editable="true">
+      <input_port name="message"
+                  default="hello"/>
+    </Action>
+    <Action ID="Script"
+            editable="true">
+      <input_port name="code"
+                  default="OtherGoal:=&apos;-1;3;3.3&apos;"/>
+    </Action>
+    <Action ID="ThinkWhatToSay"
+            editable="true">
+      <input_port name="text"
+                  default="{topic}"/>
+      <input_port name="info"
+                  default="{topic1}"/>
+    </Action>
+  </TreeNodesModel>
+
+</root>

@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/my_tree.dir/src/behavior_tree_nodes.cpp.o"
   "CMakeFiles/my_tree.dir/src/main.cpp.o"
+  "CMakeFiles/my_tree.dir/src/main2.cpp.o"
   "my_tree"
   "my_tree.pdb"
 )

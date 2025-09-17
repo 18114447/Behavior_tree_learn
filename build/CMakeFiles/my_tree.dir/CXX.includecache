@@ -6,19 +6,17 @@
 
 #IncludeRegexTransform: 
 
-../include/behavior_tree_nodes.h
+../include/tw2s.h
 behaviortree_cpp/bt_factory.h
-../include/behaviortree_cpp/bt_factory.h
+-
 iostream
 -
 
-/home/yjh/BT_learn/src/behavior_tree_nodes.cpp
-behavior_tree_nodes.h
-/home/yjh/BT_learn/src/behavior_tree_nodes.h
-
-/home/yjh/BT_learn/src/main.cpp
-behavior_tree_nodes.h
-/home/yjh/BT_learn/src/behavior_tree_nodes.h
+/home/yjh/BT_learn/src/main2.cpp
 behaviortree_cpp/bt_factory.h
+-
+iostream
+-
+tw2s.h
 -
 

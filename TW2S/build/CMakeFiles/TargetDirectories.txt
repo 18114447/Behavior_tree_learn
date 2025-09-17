@@ -1,0 +1,3 @@
+/home/yjh/BT_learn/TW2S/build/CMakeFiles/rebuild_cache.dir
+/home/yjh/BT_learn/TW2S/build/CMakeFiles/edit_cache.dir
+/home/yjh/BT_learn/TW2S/build/CMakeFiles/twts.dir

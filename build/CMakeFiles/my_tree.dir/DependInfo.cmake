@@ -6,6 +6,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/yjh/BT_learn/src/behavior_tree_nodes.cpp" "/home/yjh/BT_learn/build/CMakeFiles/my_tree.dir/src/behavior_tree_nodes.cpp.o"
   "/home/yjh/BT_learn/src/main.cpp" "/home/yjh/BT_learn/build/CMakeFiles/my_tree.dir/src/main.cpp.o"
+  "/home/yjh/BT_learn/src/main2.cpp" "/home/yjh/BT_learn/build/CMakeFiles/my_tree.dir/src/main2.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
