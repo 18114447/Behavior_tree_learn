@@ -4,7 +4,9 @@
     <Sequence>
       <CheckBattery/>
       <OpenCamera/>
-      <OpenGripper/>
+      <RetryUntilSuccessful num_attempts="3">
+        <OpenGripper/>
+      </RetryUntilSuccessful>
       <ApproachObject/>
       <CloseGripper/>
       <CloseCamera/>

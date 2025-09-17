@@ -28,7 +28,8 @@ public:
   BT::NodeStatus close();
 
 private:
-  bool _open; // 共享状态
+  bool _open = false;
+  int _open_cnt = 0;
 };
 
 // 相机控制接口
