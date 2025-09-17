@@ -4,9 +4,17 @@
     <Sequence>
       <CheckBattery/>
       <OpenCamera/>
-      <RetryUntilSuccessful num_attempts="3">
-        <OpenGripper/>
-      </RetryUntilSuccessful>
+      <Fallback>
+        <RetryUntilSuccessful num_attempts="3">
+          <OpenGripper/>
+        </RetryUntilSuccessful>
+        <Sequence>
+          <CloseCamera/>
+          <ForceFailure>
+            <AlwaysSuccess/>
+          </ForceFailure>
+        </Sequence>
+      </Fallback>
       <ApproachObject/>
       <CloseGripper/>
       <CloseCamera/>
