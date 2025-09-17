@@ -1,0 +1,7 @@
+{
+    "ros.distro": "noetic",
+    "files.associations": {
+        "unordered_map": "cpp",
+        "unordered_set": "cpp"
+    }
+}

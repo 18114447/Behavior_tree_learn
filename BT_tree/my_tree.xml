@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root BTCPP_format="3">
+  <BehaviorTree ID="mytree">
+    <Sequence>
+      <CheckBattery/>
+      <OpenCamera/>
+      <OpenGripper/>
+      <ApproachObject/>
+      <CloseGripper/>
+      <CloseCamera/>
+    </Sequence>
+  </BehaviorTree>
+
+  <!-- Description of Node Models (used by Groot) -->
+  <TreeNodesModel>
+    <Action ID="ApproachObject"
+            editable="true"/>
+    <Action ID="CheckBattery"
+            editable="true"/>
+    <Action ID="CloseCamera"
+            editable="true"/>
+    <Action ID="CloseGripper"
+            editable="true"/>
+    <Action ID="OpenCamera"
+            editable="true"/>
+    <Action ID="OpenGripper"
+            editable="true"/>
+  </TreeNodesModel>
+
+</root>
